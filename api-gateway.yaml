@@ -30,6 +30,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
+          issuer-uri: http://localhost:8080/realms/Fin_Tracker
           jwk-set-uri: http://localhost:8080/realms/Fin_Tracker/protocol/openid-connect/certs
 
 
