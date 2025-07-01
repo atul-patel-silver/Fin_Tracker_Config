@@ -29,7 +29,7 @@ keycloak:
   # Replace with your client's secret
   credentials:
 #    secret: RwVc3vGWlDVNzW72Ce5VBoZubWIbJqc6
-    secret: p4iyAe2LjagxOm7privweK7udL4yTonX
+    secret: 7Quk2cRZXv1ee66tyhypUMzHjuGGopqV
   use-resource-role-mappings: true
   bearer-only: true
   redirect-uri: http://localhost:8081/api/auth/callback
