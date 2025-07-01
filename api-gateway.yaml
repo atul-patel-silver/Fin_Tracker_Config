@@ -45,8 +45,6 @@ management:
         include: "*"
   # for all actuator property
   endpoint:
-    gateway:
-      enabled: true
     health:
       probes:
         enabled: true
