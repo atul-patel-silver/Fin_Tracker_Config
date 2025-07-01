@@ -15,15 +15,15 @@ eureka:
 spring:
   cloud:
     gateway:
-      httpclient:
-        # time out configration as yml file
-        connect-timeout: 1000
-        response-timeout: 10s
-      discovery:
-        locator:
-          enabled: true
-          all-namespaces: true
-          lowerCaseServiceId: true
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+              include-expression: true
+          httpclient:
+            connect-timeout: 1000
+            response-timeout: 10s
 
   
   security:
