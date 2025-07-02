@@ -28,7 +28,7 @@ keycloak:
   resource: fin_tracker
   # Replace with your client's secret
   credentials:
-    secret: p4iyAe2LjagxOm7privweK7udL4yTonX
+    secret: C09PRbylVhfEzjCg8R0ajjPwi2QFInJQ
   use-resource-role-mappings: true
   bearer-only: true
   redirect-uri: http://localhost:8081/api/auth/callback
