@@ -28,7 +28,6 @@ keycloak:
   resource: fin_tracker
   # Replace with your client's secret
   credentials:
-#    secret: RwVc3vGWlDVNzW72Ce5VBoZubWIbJqc6
     secret: 7Quk2cRZXv1ee66tyhypUMzHjuGGopqV
   use-resource-role-mappings: true
   bearer-only: true
