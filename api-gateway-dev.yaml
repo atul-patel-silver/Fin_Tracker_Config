@@ -89,3 +89,7 @@ keycloak:
   use-resource-role-mappings: true
   bearer-only: true
   redirect-uri: http://localhost:8081/api/auth/callback
+  
+grant-type: password
+name: admin123
+password: admin

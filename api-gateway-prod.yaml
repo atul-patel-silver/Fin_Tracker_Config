@@ -93,7 +93,3 @@ keycloak:
 grant-type: password
 name: admin123
 password: admin
-
-grant-type: password
-name: admin123
-password: admin
