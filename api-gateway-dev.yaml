@@ -88,7 +88,7 @@ keycloak:
     secret: 7Quk2cRZXv1ee66tyhypUMzHjuGGopqV
   use-resource-role-mappings: true
   bearer-only: true
-  redirect-uri: http://localhost:8084/callback
+  redirect-uri: http://localhost:3000/callback
   
 grant-type: password
 name: admin123
